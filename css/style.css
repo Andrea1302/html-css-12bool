@@ -1,4 +1,29 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 [class*="col-"]{
-    height: 100px;
-    background-color: tomato;
+    background-color: rgb(22, 105, 201);
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    padding: 5px;
+    min-height: 30px;
+}
+.nested{
+    background-color: greenyellow;
+    font-size: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    margin-bottom: 20px;
+}
+
+#offset{
+    min-height: 30px;
+    line-height: 30px;
 }
